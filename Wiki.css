@@ -1,0 +1,22 @@
+
+.headingLogo {
+  text-shadow: 1px 1px 1px black;
+}
+@media only screen and (max-width: 650px) {
+  .headingLogo {
+    font-size: 1.8rem;
+    color: white
+  }
+  .card{
+    width: 300px;
+    box-shadow: 2px 2px 8px black;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 770px) {
+  .headingLogo {
+    font-size: 2.4rem;
+    color:white;
+    box-shadow: 3px 3px 12px black;
+  }
+}
