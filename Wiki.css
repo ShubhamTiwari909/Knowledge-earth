@@ -2,9 +2,12 @@
 .headingLogo {
   text-shadow: 1px 1px 1px black;
 }
+.headingLink{
+  text-shadow: 1px 1px 3px black;
+}
 @media only screen and (max-width: 650px) {
   .headingLogo {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: white
   }
   .card{
